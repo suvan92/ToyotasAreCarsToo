@@ -12,6 +12,8 @@
 
 - (id)init {
     
+    self = [super init];
+    
     [self setModel:@"Prius"];
     
     return self;

@@ -16,6 +16,8 @@
 
 - (id)initWithModel:(NSString *)model {
     
+    self = [super init];
+    
     _model = model;
     
     return self;
